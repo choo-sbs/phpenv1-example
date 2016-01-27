@@ -1,0 +1,17 @@
+{
+    "name": "sitepoint/guestbook",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "choo",
+            "email": "khorjak@gmail.com"
+        }
+    ],
+    "require": {
+        "catfan/medoo": "^1.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^3.0"
+    }
+}
