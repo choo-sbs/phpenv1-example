@@ -6,6 +6,12 @@ $database = new medoo([
     'database_type' => 'sqlite',
     'database_file' => '../storage/database.db'
 ]);
+
+$comment = new SitePoint\Comment($database);
+$comment->setEmail('bruno@skvorc.me')
+  ->setName('Bruno Skvorc')
+  ->setComment('Hooray! Saving comments works!')
+  ->save();
 ?>
 <!doctype html>
 <html class="no-js" lang="">
